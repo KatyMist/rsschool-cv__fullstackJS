@@ -51,11 +51,9 @@ Result: a modern, fast, and responsive website ready for publication and promoti
 
 **Personal portfolio website**
 A personal portfolio site with an original concept and individual visual style. Independently designed the structure, design, and color palette, and implemented responsive layout and interactive elements using HTML, SCSS, and JavaScript.
-[GitHub](https://github.com/KatyMist/Portfolio) | [Demo](https://katymist.github.io/Portfolio)
 
 **Website for a forestry documentation specialist**
 A fully original commercial project — from concept to finished website. Designed the site structure and user flow, developed the visual concept, chose the color palette, typography, and graphic elements, implemented responsive layout with HTML, SCSS, and JavaScript, performed basic SEO optimization, and handled the build and deployment.
-[Website](https://ulles.ru)
 
 ### Study projects
 
@@ -69,7 +67,6 @@ A fully original commercial project — from concept to finished website. Design
 
 **Chessland** — an interactive online chess game, built from a video tutorial with additional improvements to the game logic and a fully redesigned interface. Implemented the core chess mechanics and interaction with the board and pieces, along with custom changes and improvements to the logic. Special attention was given to the visual design — the original tutorial styling was reworked into a more modern and original look.
 Stack: TypeScript · React · Vite · CSS/SCSS
-[GitHub](https://github.com/KatyMist/Chess) | [Demo](https://katymist.github.io/Chess)
 
 ## Education
 
