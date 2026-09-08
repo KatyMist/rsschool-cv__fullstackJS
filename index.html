@@ -4,9 +4,242 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ekaterina Tumanova — CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <div class="page">
+
+    <header class="header">
+      <img class="avatar" src="./avatar.jpg" alt="Photo of Ekaterina Tumanova">
+      <h1>Ekaterina Tumanova</h1>
+      <p class="header__role">Frontend Developer</p>
+
+      <nav class="nav" aria-label="CV sections">
+        <ul class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code-example">Code example</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#english">English</a></li>
+        </ul>
+      </nav>
+
+      <ul class="contacts">
+        <li><a href="mailto:tumanova.ekaterina73@gmail.com">Email</a></li>
+        <li><a href="https://github.com/KatyMist" target="_blank" rel="noopener">GitHub</a></li>
+        <li>Discord: ekaterina08526</li>
+        <li><a href="https://t.me/KatyMist" target="_blank" rel="noopener">Telegram</a></li>
+      </ul>
+    </header>
+
+    <main class="main">
+
+      <section id="about" class="section">
+        <h2>About me</h2>
+        <p>
+          My name is Ekaterina Tumanova. I hold three higher education degrees.
+          In 2015, I graduated from Ulyanovsk State University in a field related to ecology.
+          In 2018, I completed a degree at the Institute of Economics and Business of
+          Ulyanovsk State University. In 2021, I graduated from the Volga State University
+          of Technology, Institute of Forestry and Nature Management. After graduating,
+          I worked in my field within environmental protection organizations of the
+          Ulyanovsk region.
+        </p>
+        <p>
+          However, at the beginning of 2026, I decided to make a major career change and
+          move into frontend development. I am now actively learning HTML, CSS/SCSS,
+          JavaScript, Git/GitHub, TypeScript, and React, and working with Vite, REST APIs,
+          and modern development tools. Alongside this, I complete study projects and
+          continue building my portfolio. Some of my projects and coursework are showcased
+          on my <a href="https://katymist.github.io/Portfolio/" target="_blank" rel="noopener">portfolio website</a>,
+          which also includes links to my profiles, courses, and certificates.
+        </p>
+        <p>
+          For me, moving into frontend development is a deliberate decision to master an
+          entirely new profession. My main goal right now is to systematize the knowledge
+          I've gained, deepen it, and gain practical experience developing as part of a
+          team. That is why I decided to join Rolling Scopes School.
+        </p>
+      </section>
+
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul class="skills__list">
+          <li>HTML5, CSS3, SCSS</li>
+          <li>JavaScript</li>
+          <li>Responsive and cross-browser layout</li>
+          <li>Semantic markup, BEM</li>
+          <li>REST API, Fetch API</li>
+          <li>Basic SEO</li>
+          <li>Git, GitHub</li>
+          <li>Vite</li>
+          <li>Figma (implementing designs)</li>
+          <li>Markdown</li>
+          <li>Component-based approach</li>
+          <li>Clean and readable code</li>
+          <li>Basic performance optimization</li>
+        </ul>
+      </section>
+
+      <section id="code-example" class="section">
+        <h2>Code example</h2>
+        <p>
+          Solution to Codewars kata
+          <a href="https://www.codewars.com/kata/57eae65a4321032ce000002d" target="_blank" rel="noopener">“Remove String Spaces”</a>
+          (8 kyu):
+        </p>
+        <p>Task: write a function that removes all spaces from a string and returns the resulting string.</p>
+        <pre class="code-block"><code>function noSpace(x) {
+  return x.replace(/\s/g, '');
+}</code></pre>
+      </section>
+
+      <section id="experience" class="section">
+        <h2>Experience</h2>
+
+        <h3 class="section__subheading">Commercial projects</h3>
+
+        <article class="project">
+          <h4>Website for Anna Kudurova's podology and wellness aesthetics studio</h4>
+          <p>
+            A full-scale commercial project built from scratch based on the client's brief.
+            Independently designed the site structure, implemented responsive layout,
+            integrated the required functionality, performed basic SEO optimization, and
+            set up Yandex Metrica for traffic and behavior analytics. Result: a modern,
+            fast, and responsive website ready for publication and promotion.
+          </p>
+        </article>
+
+        <article class="project">
+          <h4>Personal portfolio website</h4>
+          <p>
+            A personal portfolio site with an original concept and individual visual style.
+            Independently designed the structure, design, and color palette, and implemented
+            responsive layout and interactive elements using HTML, SCSS, and JavaScript.
+          </p>
+          <p class="project__links">
+            <a href="https://github.com/KatyMist/Portfolio" target="_blank" rel="noopener">GitHub</a>
+            ·
+            <a href="https://katymist.github.io/Portfolio" target="_blank" rel="noopener">Demo</a>
+          </p>
+        </article>
+
+        <article class="project">
+          <h4>Website for a forestry documentation specialist</h4>
+          <p>
+            A fully original commercial project — from concept to finished website. Designed
+            the site structure and user flow, developed the visual concept, chose the color
+            palette, typography, and graphic elements, implemented responsive layout with
+            HTML, SCSS, and JavaScript, performed basic SEO optimization, and handled the
+            build and deployment.
+          </p>
+          <p class="project__links">
+            <a href="https://ulles.ru" target="_blank" rel="noopener">Website</a>
+          </p>
+        </article>
+
+        <h3 class="section__subheading">Study projects</h3>
+
+        <article class="project">
+          <h4>Kropp Fitness</h4>
+          <p>
+            A responsive landing page for a fitness club, built following a video tutorial.
+            Reinforced skills in semantic and responsive layout with HTML and CSS.
+          </p>
+        </article>
+
+        <article class="project">
+          <h4>Future Tech</h4>
+          <p>
+            A landing page about future technologies, built following a video tutorial.
+            Implemented responsive layout and interactive elements using HTML, SCSS, and
+            JavaScript.
+          </p>
+        </article>
+
+        <article class="project">
+          <h4>Todo React</h4>
+          <p>
+            A task management SPA built while learning React, based on video tutorials with
+            further independent improvements. Practiced the component-based approach, React
+            Hooks, Context API, working with a REST API, and structuring an application.
+            Implemented creating, searching, editing, deleting, and updating the status of
+            tasks, with data synchronized through JSON Server.
+          </p>
+        </article>
+
+        <article class="project">
+          <h4>Pizzeria — Gestione del Menu</h4>
+          <p>
+            An SPA for managing a pizzeria menu, built with React and TypeScript.
+            Implemented CRUD operations, controlled forms with validation, and data
+            persistence via localStorage. The core logic was built as part of a course,
+            while the interface design, responsive layout, and SCSS styling were done
+            independently.
+          </p>
+        </article>
+
+        <article class="project">
+          <h4>Chessland</h4>
+          <p>
+            An interactive online chess game, built from a video tutorial with additional
+            improvements to the game logic and a fully redesigned interface. Implemented the
+            core chess mechanics and interaction with the board and pieces, along with
+            custom changes and improvements to the logic. Special attention was given to the
+            visual design — the original tutorial styling was reworked into a more modern
+            and original look.
+          </p>
+        </article>
+      </section>
+
+      <section id="education" class="section">
+        <h2>Education</h2>
+        <ul class="education__list">
+          <li>2015 — Ulyanovsk State University, Faculty of Ecology</li>
+          <li>2018 — Ulyanovsk State University, Institute of Economics and Business</li>
+          <li>2021 — Volga State University of Technology, Institute of Forestry and Nature Management</li>
+        </ul>
+
+        <h3>Frontend development courses (Stepik)</h3>
+        <p>Continuing to learn and improve my skills every day! <a href="https://stepik.org/users/1179792686/profile" target="_blank" rel="noopener">All courses on Stepik →</a></p>
+        <ul class="courses__list">
+          <li><a href="https://stepik.org/cert/3217403" target="_blank" rel="noopener">Твой JavaScript</a></li>
+          <li><a href="https://stepik.org/cert/3167224" target="_blank" rel="noopener">Погружение в JavaScript: для начинающих</a></li>
+          <li><a href="https://stepik.org/cert/3164880" target="_blank" rel="noopener">HTML CSS JS (lite)</a></li>
+          <li><a href="https://stepik.org/cert/3125831" target="_blank" rel="noopener">Веб-разработка для начинающих: HTML и CSS</a></li>
+          <li><a href="https://stepik.org/cert/3247384" target="_blank" rel="noopener">Основы Git и GitHub</a></li>
+          <li><a href="https://stepik.org/cert/3307686" target="_blank" rel="noopener">Markdown</a></li>
+        </ul>
+      </section>
+
+      <section id="english" class="section">
+        <h2>English</h2>
+        <p>A2</p>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p>
+        <a href="https://github.com/KatyMist" target="_blank" rel="noopener">github.com/KatyMist</a>
+      </p>
+      <p>&copy; 2026 Ekaterina Tumanova</p>
+      <p>
+        <a href="https://rs.school/" target="_blank" rel="noopener" class="footer__course" aria-label="Rolling Scopes School">
+          <svg class="footer__logo" viewBox="0 0 140 32" role="img" aria-hidden="true">
+            <rect x="0.5" y="0.5" width="139" height="31" rx="8" fill="none" stroke="currentColor" stroke-width="1"/>
+            <text x="70" y="21" text-anchor="middle" font-family="Poppins, sans-serif" font-size="13" font-weight="600" fill="currentColor">RS School</text>
+          </svg>
+        </a>
+      </p>
+    </footer>
+
+  </div>
 
 </body>
 </html>
